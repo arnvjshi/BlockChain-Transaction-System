@@ -1,0 +1,731 @@
+{
+  "transactions": [
+    {
+      "fromAddress": "MINING_REWARD",
+      "toAddress": "MinerAddress",
+      "amount": 10,
+      "timestamp": "2024-12-14T08:29:47.351Z"
+    },
+    {
+      "fromAddress": "Alice",
+      "toAddress": "Bob",
+      "amount": 5,
+      "timestamp": "2024-12-14T08:29:47.351Z"
+    },
+    {
+      "fromAddress": "Bob",
+      "toAddress": "Charlie",
+      "amount": 3,
+      "timestamp": "2024-12-14T08:29:47.351Z"
+    },
+    {
+      "fromAddress": "Charlie",
+      "toAddress": "Alice",
+      "amount": 2,
+      "timestamp": "2024-12-14T08:29:47.351Z"
+    }
+  ],
+  "blockchain": [
+    {
+      "index": 0,
+      "timestamp": "2024-12-14T08:29:47.287Z",
+      "transactions": [],
+      "previousHash": "0",
+      "hash": "cd70128bc52a9e8ac20f587cd4f42d4a3589462b17aebcd6f78ed0add0f1996e",
+      "nonce": 0
+    },
+    {
+      "index": 1,
+      "timestamp": "2024-12-14T08:29:47.292Z",
+      "transactions": [],
+      "previousHash": "cd70128bc52a9e8ac20f587cd4f42d4a3589462b17aebcd6f78ed0add0f1996e",
+      "hash": "0068d8b8773ffea6ab88b6e6b8726427e03ffdf460912194de35cf5fa38a6e85",
+      "nonce": 71
+    },
+    {
+      "index": 2,
+      "timestamp": "2024-12-14T08:29:47.292Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.292Z"
+        }
+      ],
+      "previousHash": "0068d8b8773ffea6ab88b6e6b8726427e03ffdf460912194de35cf5fa38a6e85",
+      "hash": "00d204493a5fa5bec3f659d90573d38499572e342d167c8b83a285a293cf727b",
+      "nonce": 109
+    },
+    {
+      "index": 3,
+      "timestamp": "2024-12-14T08:29:47.293Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.293Z"
+        }
+      ],
+      "previousHash": "00d204493a5fa5bec3f659d90573d38499572e342d167c8b83a285a293cf727b",
+      "hash": "0029b2024b7910a78f2838e76141a478cf1afd12e4b7b57bb81be8ecfe771fed",
+      "nonce": 137
+    },
+    {
+      "index": 4,
+      "timestamp": "2024-12-14T08:29:47.294Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.294Z"
+        }
+      ],
+      "previousHash": "0029b2024b7910a78f2838e76141a478cf1afd12e4b7b57bb81be8ecfe771fed",
+      "hash": "00f5e85ad6df48adf135c5ce00916bca70cff83874858506bf29e339de74c922",
+      "nonce": 542
+    },
+    {
+      "index": 5,
+      "timestamp": "2024-12-14T08:29:47.298Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.298Z"
+        }
+      ],
+      "previousHash": "00f5e85ad6df48adf135c5ce00916bca70cff83874858506bf29e339de74c922",
+      "hash": "00242862678ba47522f5c6884786797c4d02c7790daca8b935d9fe5b97e754a3",
+      "nonce": 1285
+    },
+    {
+      "index": 6,
+      "timestamp": "2024-12-14T08:29:47.312Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.312Z"
+        }
+      ],
+      "previousHash": "00242862678ba47522f5c6884786797c4d02c7790daca8b935d9fe5b97e754a3",
+      "hash": "00bfaf7c03b47765232c88b0df9e820592a9bc2f0ffaf38b0c1d9c14838dfef6",
+      "nonce": 197
+    },
+    {
+      "index": 7,
+      "timestamp": "2024-12-14T08:29:47.315Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.315Z"
+        }
+      ],
+      "previousHash": "00bfaf7c03b47765232c88b0df9e820592a9bc2f0ffaf38b0c1d9c14838dfef6",
+      "hash": "0015704b7f424337e0e78f4c960053d9986421fc05b42ea50b63270f0881f26a",
+      "nonce": 260
+    },
+    {
+      "index": 8,
+      "timestamp": "2024-12-14T08:29:47.317Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.317Z"
+        }
+      ],
+      "previousHash": "0015704b7f424337e0e78f4c960053d9986421fc05b42ea50b63270f0881f26a",
+      "hash": "0012c986d20c85a31938dae64d5178a56882263f85fce66b8ca4b15ac2a0825b",
+      "nonce": 566
+    },
+    {
+      "index": 9,
+      "timestamp": "2024-12-14T08:29:47.320Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.320Z"
+        }
+      ],
+      "previousHash": "0012c986d20c85a31938dae64d5178a56882263f85fce66b8ca4b15ac2a0825b",
+      "hash": "00e6234d5727d6084842d50f2d2da89a25c0590f920dbba1ec982ce48cbd662b",
+      "nonce": 641
+    },
+    {
+      "index": 10,
+      "timestamp": "2024-12-14T08:29:47.322Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.322Z"
+        }
+      ],
+      "previousHash": "00e6234d5727d6084842d50f2d2da89a25c0590f920dbba1ec982ce48cbd662b",
+      "hash": "0092160983da0c91e14d2ec811a0a6ed9e1b5b912b57419739cdfeb4fc66774d",
+      "nonce": 23
+    },
+    {
+      "index": 11,
+      "timestamp": "2024-12-14T08:29:47.322Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.322Z"
+        }
+      ],
+      "previousHash": "0092160983da0c91e14d2ec811a0a6ed9e1b5b912b57419739cdfeb4fc66774d",
+      "hash": "00d3a18d4509d34d395349e408212bb606a9eb3539fd539bd226c40da444206d",
+      "nonce": 26
+    },
+    {
+      "index": 12,
+      "timestamp": "2024-12-14T08:29:47.323Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Alice",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.323Z"
+        }
+      ],
+      "previousHash": "00d3a18d4509d34d395349e408212bb606a9eb3539fd539bd226c40da444206d",
+      "hash": "00229ddd0c645b1694363b88dfdb3dc81fa312af2529a2a201dc840f3ec14572",
+      "nonce": 105
+    },
+    {
+      "index": 13,
+      "timestamp": "2024-12-14T08:29:47.324Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.324Z"
+        }
+      ],
+      "previousHash": "00229ddd0c645b1694363b88dfdb3dc81fa312af2529a2a201dc840f3ec14572",
+      "hash": "00ecb284953d0bac6b56a23cdf80b62c4a992f4cc821aeb9db75fabf571f1c93",
+      "nonce": 137
+    },
+    {
+      "index": 14,
+      "timestamp": "2024-12-14T08:29:47.324Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.324Z"
+        }
+      ],
+      "previousHash": "00ecb284953d0bac6b56a23cdf80b62c4a992f4cc821aeb9db75fabf571f1c93",
+      "hash": "00f9efd873c08bb7fa0fe4e24fbc8787ab5625cfe5dc90e0b18eb799ab295ac0",
+      "nonce": 68
+    },
+    {
+      "index": 15,
+      "timestamp": "2024-12-14T08:29:47.325Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.325Z"
+        }
+      ],
+      "previousHash": "00f9efd873c08bb7fa0fe4e24fbc8787ab5625cfe5dc90e0b18eb799ab295ac0",
+      "hash": "0050cd6dafc6aff6b0c4511b4d3952152ee97cb2cf2e8f46c8511cd5556416a1",
+      "nonce": 216
+    },
+    {
+      "index": 16,
+      "timestamp": "2024-12-14T08:29:47.325Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.325Z"
+        }
+      ],
+      "previousHash": "0050cd6dafc6aff6b0c4511b4d3952152ee97cb2cf2e8f46c8511cd5556416a1",
+      "hash": "003605097971153f3bce588d4c7805244045ff08a35937e7505284fb57d63dc6",
+      "nonce": 132
+    },
+    {
+      "index": 17,
+      "timestamp": "2024-12-14T08:29:47.326Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.326Z"
+        }
+      ],
+      "previousHash": "003605097971153f3bce588d4c7805244045ff08a35937e7505284fb57d63dc6",
+      "hash": "005bfa0430dd44ac40cb3b81b1d9a077cd66f17c40401ddd5014e9b8c4b5101e",
+      "nonce": 20
+    },
+    {
+      "index": 18,
+      "timestamp": "2024-12-14T08:29:47.326Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.326Z"
+        }
+      ],
+      "previousHash": "005bfa0430dd44ac40cb3b81b1d9a077cd66f17c40401ddd5014e9b8c4b5101e",
+      "hash": "00adf3000acb0f56645b6f8b84e72b39529b1a4afb3ba6535810ac5248cc6bb9",
+      "nonce": 250
+    },
+    {
+      "index": 19,
+      "timestamp": "2024-12-14T08:29:47.327Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.327Z"
+        }
+      ],
+      "previousHash": "00adf3000acb0f56645b6f8b84e72b39529b1a4afb3ba6535810ac5248cc6bb9",
+      "hash": "006331b9acce560333b9c90cec45d7c351c681bcaa53b0c60573728d29daec32",
+      "nonce": 104
+    },
+    {
+      "index": 20,
+      "timestamp": "2024-12-14T08:29:47.328Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.328Z"
+        }
+      ],
+      "previousHash": "006331b9acce560333b9c90cec45d7c351c681bcaa53b0c60573728d29daec32",
+      "hash": "004e85da273b8675cbdee9598a4fae6a5ab1bf2b7c001faad75810b990998049",
+      "nonce": 209
+    },
+    {
+      "index": 21,
+      "timestamp": "2024-12-14T08:29:47.329Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.329Z"
+        }
+      ],
+      "previousHash": "004e85da273b8675cbdee9598a4fae6a5ab1bf2b7c001faad75810b990998049",
+      "hash": "006923fc86645a94759c2dc5881c4137bcae8b5c0aebe67f817ca5af196bcf2f",
+      "nonce": 472
+    },
+    {
+      "index": 22,
+      "timestamp": "2024-12-14T08:29:47.331Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.330Z"
+        }
+      ],
+      "previousHash": "006923fc86645a94759c2dc5881c4137bcae8b5c0aebe67f817ca5af196bcf2f",
+      "hash": "00e5152c3a63110fd873b0d33946b691cfa3a4659ec51377159d4ddaf14abe6e",
+      "nonce": 533
+    },
+    {
+      "index": 23,
+      "timestamp": "2024-12-14T08:29:47.332Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Bob",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.332Z"
+        }
+      ],
+      "previousHash": "00e5152c3a63110fd873b0d33946b691cfa3a4659ec51377159d4ddaf14abe6e",
+      "hash": "001422aa4c54029c40f3b248aa2fc3fbd7cce076b5ccf0e1f5cc293aa0499e96",
+      "nonce": 79
+    },
+    {
+      "index": 24,
+      "timestamp": "2024-12-14T08:29:47.332Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.332Z"
+        }
+      ],
+      "previousHash": "001422aa4c54029c40f3b248aa2fc3fbd7cce076b5ccf0e1f5cc293aa0499e96",
+      "hash": "007b30f62eb0b66c777b21f567b42955e3cdcec94f638b2da47f38e7756a22de",
+      "nonce": 375
+    },
+    {
+      "index": 25,
+      "timestamp": "2024-12-14T08:29:47.334Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.334Z"
+        }
+      ],
+      "previousHash": "007b30f62eb0b66c777b21f567b42955e3cdcec94f638b2da47f38e7756a22de",
+      "hash": "00c8467771d7a71a7537bba9821bb5dcbb4030057026d34dd74a06347d1e2a91",
+      "nonce": 340
+    },
+    {
+      "index": 26,
+      "timestamp": "2024-12-14T08:29:47.335Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.335Z"
+        }
+      ],
+      "previousHash": "00c8467771d7a71a7537bba9821bb5dcbb4030057026d34dd74a06347d1e2a91",
+      "hash": "003f9607f30ee124482bf406d8606f35f19f381106428197a11c305b8b8d49e6",
+      "nonce": 489
+    },
+    {
+      "index": 27,
+      "timestamp": "2024-12-14T08:29:47.337Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.337Z"
+        }
+      ],
+      "previousHash": "003f9607f30ee124482bf406d8606f35f19f381106428197a11c305b8b8d49e6",
+      "hash": "0078e1e269302a82a2d2b065820ea8e3a72f5ba07f3c083c7ddd377341a6d304",
+      "nonce": 187
+    },
+    {
+      "index": 28,
+      "timestamp": "2024-12-14T08:29:47.337Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.337Z"
+        }
+      ],
+      "previousHash": "0078e1e269302a82a2d2b065820ea8e3a72f5ba07f3c083c7ddd377341a6d304",
+      "hash": "0034ca90a12e5221c30a073015b19c865d775191a9d97c6e64369de4c4ec537d",
+      "nonce": 199
+    },
+    {
+      "index": 29,
+      "timestamp": "2024-12-14T08:29:47.338Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.338Z"
+        }
+      ],
+      "previousHash": "0034ca90a12e5221c30a073015b19c865d775191a9d97c6e64369de4c4ec537d",
+      "hash": "008624cc6b8714f880a71cf53fb3f59366344efd3ab709912205e6d1d411aa85",
+      "nonce": 46
+    },
+    {
+      "index": 30,
+      "timestamp": "2024-12-14T08:29:47.338Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.338Z"
+        }
+      ],
+      "previousHash": "008624cc6b8714f880a71cf53fb3f59366344efd3ab709912205e6d1d411aa85",
+      "hash": "002bac2bfc905beb9b0df0da147c5708f8352d54b2537042e1c0924f3bbe64a5",
+      "nonce": 23
+    },
+    {
+      "index": 31,
+      "timestamp": "2024-12-14T08:29:47.338Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.338Z"
+        }
+      ],
+      "previousHash": "002bac2bfc905beb9b0df0da147c5708f8352d54b2537042e1c0924f3bbe64a5",
+      "hash": "0029889c84a3b05f60615c0b1aef42eee2010e83905c7c0f3ddd7373149dd613",
+      "nonce": 244
+    },
+    {
+      "index": 32,
+      "timestamp": "2024-12-14T08:29:47.339Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.339Z"
+        }
+      ],
+      "previousHash": "0029889c84a3b05f60615c0b1aef42eee2010e83905c7c0f3ddd7373149dd613",
+      "hash": "007f7bb26ee3ca1a9b0b1ba3884f1570077ea7367f2a93cb91eb883e2c49a759",
+      "nonce": 160
+    },
+    {
+      "index": 33,
+      "timestamp": "2024-12-14T08:29:47.339Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.339Z"
+        }
+      ],
+      "previousHash": "007f7bb26ee3ca1a9b0b1ba3884f1570077ea7367f2a93cb91eb883e2c49a759",
+      "hash": "0058308cc1b9bb2237553b74e023acbcf351723ecfcd4be9dee0233b1658047e",
+      "nonce": 532
+    },
+    {
+      "index": 34,
+      "timestamp": "2024-12-14T08:29:47.341Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "Charlie",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.341Z"
+        }
+      ],
+      "previousHash": "0058308cc1b9bb2237553b74e023acbcf351723ecfcd4be9dee0233b1658047e",
+      "hash": "0083be1931cdc4fd3f336ecc46c69d1751c3d2b0a5f0c7e776f121dda91949ef",
+      "nonce": 132
+    },
+    {
+      "index": 35,
+      "timestamp": "2024-12-14T08:29:47.341Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.341Z"
+        }
+      ],
+      "previousHash": "0083be1931cdc4fd3f336ecc46c69d1751c3d2b0a5f0c7e776f121dda91949ef",
+      "hash": "008d0569f03bf5cf83d10d420cf0ab9dc9c2e1d3c464f16e6de04dba7c117741",
+      "nonce": 42
+    },
+    {
+      "index": 36,
+      "timestamp": "2024-12-14T08:29:47.341Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.341Z"
+        }
+      ],
+      "previousHash": "008d0569f03bf5cf83d10d420cf0ab9dc9c2e1d3c464f16e6de04dba7c117741",
+      "hash": "00d247dba8472745d3757374af572df91350459bc15ee6977aee495ea4745a16",
+      "nonce": 162
+    },
+    {
+      "index": 37,
+      "timestamp": "2024-12-14T08:29:47.342Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.342Z"
+        }
+      ],
+      "previousHash": "00d247dba8472745d3757374af572df91350459bc15ee6977aee495ea4745a16",
+      "hash": "0058842ec1461d6b8f43ff570ad9b321b5bbf78591d20193002d0edc83954630",
+      "nonce": 536
+    },
+    {
+      "index": 38,
+      "timestamp": "2024-12-14T08:29:47.344Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.344Z"
+        }
+      ],
+      "previousHash": "0058842ec1461d6b8f43ff570ad9b321b5bbf78591d20193002d0edc83954630",
+      "hash": "009f5718eaa426915e44add960ad35b2f4f98b976869933934bab3ff60593c4d",
+      "nonce": 125
+    },
+    {
+      "index": 39,
+      "timestamp": "2024-12-14T08:29:47.344Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.344Z"
+        }
+      ],
+      "previousHash": "009f5718eaa426915e44add960ad35b2f4f98b976869933934bab3ff60593c4d",
+      "hash": "00891c9e1136f5742e35546d361c4abeedbce1efbb16c1e22d674347556ed069",
+      "nonce": 518
+    },
+    {
+      "index": 40,
+      "timestamp": "2024-12-14T08:29:47.346Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.346Z"
+        }
+      ],
+      "previousHash": "00891c9e1136f5742e35546d361c4abeedbce1efbb16c1e22d674347556ed069",
+      "hash": "002ebcdebc38da7dc5ca0cdf2b3aebff81b1a32932cb1db111685ff433ae1acb",
+      "nonce": 338
+    },
+    {
+      "index": 41,
+      "timestamp": "2024-12-14T08:29:47.347Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.347Z"
+        }
+      ],
+      "previousHash": "002ebcdebc38da7dc5ca0cdf2b3aebff81b1a32932cb1db111685ff433ae1acb",
+      "hash": "00cec5cb229e67aa8870f8c7028ab99c7a8a3af9ea2e6e32f82c17b3510ad2df",
+      "nonce": 353
+    },
+    {
+      "index": 42,
+      "timestamp": "2024-12-14T08:29:47.348Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.348Z"
+        }
+      ],
+      "previousHash": "00cec5cb229e67aa8870f8c7028ab99c7a8a3af9ea2e6e32f82c17b3510ad2df",
+      "hash": "00f10c9ffeee8b0422d5caea07129af1c686b52416cf7bc422dd64124000795a",
+      "nonce": 421
+    },
+    {
+      "index": 43,
+      "timestamp": "2024-12-14T08:29:47.350Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.350Z"
+        }
+      ],
+      "previousHash": "00f10c9ffeee8b0422d5caea07129af1c686b52416cf7bc422dd64124000795a",
+      "hash": "003708b82636018dc2105082138f2e83e5560c2f4cd02683dcbdfe2ce1149a78",
+      "nonce": 263
+    },
+    {
+      "index": 44,
+      "timestamp": "2024-12-14T08:29:47.351Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.351Z"
+        }
+      ],
+      "previousHash": "003708b82636018dc2105082138f2e83e5560c2f4cd02683dcbdfe2ce1149a78",
+      "hash": "0058339ff2a28a2e205ee643c49371bb901a42d755ad344504e0202671e57c44",
+      "nonce": 190
+    },
+    {
+      "index": 45,
+      "timestamp": "2024-12-14T08:29:47.352Z",
+      "transactions": [
+        {
+          "fromAddress": "MINING_REWARD",
+          "toAddress": "MinerAddress",
+          "amount": 10,
+          "timestamp": "2024-12-14T08:29:47.351Z"
+        },
+        {
+          "fromAddress": "Alice",
+          "toAddress": "Bob",
+          "amount": 5,
+          "timestamp": "2024-12-14T08:29:47.351Z"
+        },
+        {
+          "fromAddress": "Bob",
+          "toAddress": "Charlie",
+          "amount": 3,
+          "timestamp": "2024-12-14T08:29:47.351Z"
+        },
+        {
+          "fromAddress": "Charlie",
+          "toAddress": "Alice",
+          "amount": 2,
+          "timestamp": "2024-12-14T08:29:47.351Z"
+        }
+      ],
+      "previousHash": "0058339ff2a28a2e205ee643c49371bb901a42d755ad344504e0202671e57c44",
+      "hash": "006a5cad466034c35ba191e516246cbd46261c8d8e2a74b226f3cc612a49a26d",
+      "nonce": 2
+    }
+  ],
+  "chainValidity": true,
+  "accountBalances": {
+    "Alice": 107,
+    "Bob": 112,
+    "Charlie": 111,
+    "MinerAddress": 110
+  }
+}
